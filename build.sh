@@ -23,6 +23,7 @@ swiftc -O \
   -o "$APP/Contents/MacOS/NightShift"
 
 cp Resources/Info.plist "$APP/Contents/Info.plist"
+cp Resources/AppIcon.icns "$APP/Contents/Resources/AppIcon.icns"
 
 echo "→ Firmando (ad hoc)…"
 codesign --force --sign - "$APP"
