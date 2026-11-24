@@ -69,6 +69,10 @@ pgrep caffeinate           # ver el PID
 kill <PID>                 # cancelar antes de tiempo
 ```
 
+## Descargar
+
+Descarga la app compilada desde [Releases](https://github.com/diegobogota/NightShift/releases/latest): descarga `NightShift-macOS-arm64.zip`, descomprime, mueve `NightShift.app` a `~/Applications` y ábrela con clic derecho → **Abrir** (primera vez). Si aparece aviso de cuarentena: `xattr -d com.apple.quarantine ~/Applications/NightShift.app`.
+
 ## Autor
 
 **Diego Bogotá Linares**
